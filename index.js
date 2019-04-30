@@ -34,7 +34,7 @@ const run = async () => {
     }
   })
   fs.mkdir("./webpacks", () => {
-    files.copyFiles("webpack", "./")
+    files.copyFiles("webpack", __dirname + "/webpacks")
   })
 }
 

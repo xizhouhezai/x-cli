@@ -1,7 +1,7 @@
 {
-  "name": "ginit",
+  "name": "x-cli",
   "version": "1.0.0",
-  "description": "\"git init\"",
+  "description": "\"x-cli\"",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -26,6 +26,6 @@
     "touch": "^3.1.0"
   },
   "bin": {
-    "ginit": "./index.js"
+    "x-cli": "./index.js"
   }
 }
